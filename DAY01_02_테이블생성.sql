@@ -49,3 +49,7 @@ CREATE TABLE BLOG_T(
     CONTENTS CLOB              NULL,    --NULL은 생략 가능함
     CREATED  DATE              NOT NULL
 );
+-- 블로그 테이블 삭제하기
+DROP TABLE BLOG_T;
+
+
